@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "@types/bun": "catalog:",
+    "lefthook": "^2.1.10",
     "npm-run-all2": "^9.0.3",
     "oxfmt": "^0.64.0",
     "oxlint": "^1.79.0",
