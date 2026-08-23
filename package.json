@@ -8,7 +8,10 @@
     "fmt": "oxfmt .",
     "fmt:check": "oxfmt --check .",
     "lint": "oxlint",
-    "check": "run-s fmt fmt:check lint"
+    "check": "run-s fmt fmt:check lint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:verbose": "vitest run --reporter=verbose"
   },
   "workspaces": {
     "catalog": {
@@ -21,7 +24,8 @@
     "npm-run-all2": "^9.0.3",
     "oxfmt": "^0.64.0",
     "oxlint": "^1.79.0",
-    "oxlint-tsgolint": "^7.0.2001"
+    "oxlint-tsgolint": "^7.0.2001",
+    "vitest": "^4.1.11"
   },
   "peerDependencies": {
     "typescript": "catalog:"
