@@ -10,15 +10,21 @@
     "lint": "oxlint",
     "check": "run-s fmt fmt:check lint"
   },
+  "workspaces": {
+    "catalog": {
+      "@types/bun": "^1.4.0",
+      "typescript": "^7.0.2"
+    }
+  },
   "devDependencies": {
-    "@types/bun": "^1.4.0",
+    "@types/bun": "catalog:",
     "npm-run-all2": "^9.0.3",
     "oxfmt": "^0.64.0",
     "oxlint": "^1.79.0",
     "oxlint-tsgolint": "^7.0.2001"
   },
   "peerDependencies": {
-    "typescript": "^7.0.2"
+    "typescript": "catalog:"
   },
   "packageManager": "bun@1.4.0"
 }

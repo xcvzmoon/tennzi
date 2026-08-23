@@ -5,16 +5,20 @@
     "": {
       "name": "tennzi",
       "devDependencies": {
-        "@types/bun": "^1.4.0",
+        "@types/bun": "catalog:",
         "npm-run-all2": "^9.0.3",
         "oxfmt": "^0.64.0",
         "oxlint": "^1.79.0",
         "oxlint-tsgolint": "^7.0.2001",
       },
       "peerDependencies": {
-        "typescript": "^7.0.2",
+        "typescript": "catalog:",
       },
     },
+  },
+  "catalog": {
+    "@types/bun": "^1.4.0",
+    "typescript": "^7.0.2",
   },
   "packages": {
     "@oxfmt/binding-android-arm-eabi": ["@oxfmt/binding-android-arm-eabi@0.64.0", "", { "os": "android", "cpu": "arm" }, "sha512-o6uzh/jTOQeAY5TdkAeXdqv7MBRcPxiRA08zrcBtkKj5cSu/FMu0Hl7Q6Fi1KCKyCWZ6lJVjBzdsJvsKltUsGQ=="],
