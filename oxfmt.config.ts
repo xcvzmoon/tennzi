@@ -14,7 +14,7 @@ export default defineConfig({
     newlinesBetween: false,
   },
   sortTailwindcss: {
-    stylesheets: [''],
+    stylesheet: 'apps/desktop/app/assets/css/main.css',
     attributes: ['class'],
     functions: ['clsx', 'cn'],
     preserveWhitespace: true,

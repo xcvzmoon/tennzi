@@ -5,15 +5,19 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "fmt": "oxfmt .",
-    "fmt:check": "oxfmt --check .",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
     "lint": "oxlint",
     "check": "run-s fmt fmt:check lint",
     "test": "vitest run",
     "test:watch": "vitest",
-    "test:verbose": "vitest run --reporter=verbose"
+    "test:verbose": "vitest run --reporter=verbose",
+    "desktop": "bun --cwd apps/desktop"
   },
   "workspaces": {
+    "packages": [
+      "apps/*"
+    ],
     "catalog": {
       "@types/bun": "^1.4.0",
       "typescript": "^7.0.2"
