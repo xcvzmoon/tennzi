@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "skills": {
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "computedHash": "4eabc66183767153e404b39d1b839b1c37f2d82d86f0a0d7e880a579d8d62336"
+    },
+    "grill-me": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/grill-me/SKILL.md",
+      "computedHash": "9cdbb4b8f7a3aeaef82e6230c9e823500d4a8a1214c726cf342cf9829d34fc7d"
+    },
+    "improve-codebase-architecture": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/improve-codebase-architecture/SKILL.md",
+      "computedHash": "2449db6ab1ded9581f69fcc56c1f64818112d05e271fd4c5da23c6523f9d3d9d"
+    },
+    "install-anti-slop": {
+      "source": "dmmulroy/anti-slop",
+      "sourceType": "github",
+      "skillPath": "skills/install-anti-slop/SKILL.md",
+      "computedHash": "b903a7ac2c823d473a4b0046834fccbab0bc75ee4fda8be4f81efa895d475b01"
+    },
+    "nitro": {
+      "source": "antfu/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nitro/SKILL.md",
+      "computedHash": "f8341eaf6fbdc604c2c8123a275407acea5a74ad3b0870cdd0ed2a3007e36c12"
+    },
+    "nuxt": {
+      "source": "antfu/skills",
+      "sourceType": "github",
+      "skillPath": "skills/nuxt/SKILL.md",
+      "computedHash": "96dbdbfc06bf7045aeb9a463b972d5c0b5679d6dadf196d8ef6b98dc6defed2d"
+    },
+    "nuxt-ui": {
+      "source": "nuxt/ui",
+      "sourceType": "github",
+      "skillPath": "skills/nuxt-ui/SKILL.md",
+      "computedHash": "f6235ff66b930f4fe3809a55167096c9626ebb806f767fe363f19384e0d84c87"
+    },
+    "pinia": {
+      "source": "antfu/skills",
+      "sourceType": "github",
+      "skillPath": "skills/pinia/SKILL.md",
+      "computedHash": "897b6b0982956f41f5cc85128ca638b625e1b3c8bc619e303cd1e7661c95b7de"
+    },
+    "tauri": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri/SKILL.md",
+      "computedHash": "1bfbae7bbdec2e2c424c37bda993a9edf6c9a64081d7cb530f0e4ff35e297973"
+    },
+    "tauri-app-develop": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-app-develop/SKILL.md",
+      "computedHash": "f5d693fb0be41ebe558fd9a67fa322734567ab7a4fbb46ac3b190706d9001853"
+    },
+    "tauri-build": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-build/SKILL.md",
+      "computedHash": "3ba06430b098bdbe1bf6c5f44435e107a3a448593d970f3f709c8f10e09ee628"
+    },
+    "tauri-concept": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-concept/SKILL.md",
+      "computedHash": "bcbdb875a497279a864186809afe82e89fe29455d095858f4366e89a2782dde0"
+    },
+    "tauri-ipc": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-ipc/SKILL.md",
+      "computedHash": "13bb6d9115c4f04a780a70ed50f0e470f5520847e6a9bc30e3bccdd75f496cb7"
+    },
+    "tauri-security": {
+      "source": "full-stack-skills/tauri-skills",
+      "sourceType": "github",
+      "skillPath": "skills/tauri-security/SKILL.md",
+      "computedHash": "78b6cad3df41f9df3653f624ee970f2f1b65706e25482e169ff56bae3f04d55c"
+    },
+    "unslop": {
+      "source": "cursor/plugins",
+      "sourceType": "github",
+      "skillPath": "pstack/skills/unslop/SKILL.md",
+      "computedHash": "3dfc2afeda677e12c6065497a40df7d895859de1c7d1cffb899b1559d129fe4f"
+    },
+    "valibot": {
+      "source": "open-circle/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/valibot/SKILL.md",
+      "computedHash": "dc7ad7dc09548808d26aef0bc58786a4ee3559e153a1e83c9c4574f3a294ea1b"
+    },
+    "vitest": {
+      "source": "antfu/skills",
+      "sourceType": "github",
+      "skillPath": "skills/vitest/SKILL.md",
+      "computedHash": "943d436114c677802426741980146c07560bf375297666b03062444f4b98a785"
+    },
+    "vue": {
+      "source": "antfu/skills",
+      "sourceType": "github",
+      "skillPath": "skills/vue/SKILL.md",
+      "computedHash": "9c241141e07e836e4f0537c63e8f929fba3767c2997250be38e699f19b75e3f2"
+    },
+    "vue-best-practices": {
+      "source": "antfu/skills",
+      "sourceType": "github",
+      "skillPath": "skills/vue-best-practices/SKILL.md",
+      "computedHash": "d7d22c8cb343583c3904692c4d1d7b50382945e433e4f6e053f4aabb9846cbc3"
+    },
+    "vue-testing-best-practices": {
+      "source": "antfu/skills",
+      "sourceType": "github",
+      "skillPath": "skills/vue-testing-best-practices/SKILL.md",
+      "computedHash": "18c7d8f42f350f927e37de055e34c97b8cfb9f79c12cf942f7f3d2a0821057b5"
+    },
+    "vueuse-functions": {
+      "source": "antfu/skills",
+      "sourceType": "github",
+      "skillPath": "skills/vueuse-functions/SKILL.md",
+      "computedHash": "5f32cd5f744671178284887c9ffc27a080e0e3316c0f7c3b22f4459c760daf49"
+    }
+  }
+}
