@@ -1,0 +1,15 @@
+{
+  "name": "api",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "bunx --bun nitro build",
+    "dev": "bunx --bun nitro dev",
+    "preview": "bunx --bun nitro preview"
+  },
+  "devDependencies": {
+    "@types/bun": "catalog:",
+    "nitro": "latest",
+    "typescript": "catalog:"
+  }
+}

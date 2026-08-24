@@ -25,7 +25,8 @@
     "vitest:test": "vitest run",
     "vitest:test:watch": "vitest",
     "vitest:test:verbose": "vitest run --reporter=verbose",
-    "desktop": "bun --cwd apps/desktop"
+    "desktop": "bun --cwd apps/desktop",
+    "api": "bun --cwd apps/api"
   },
   "workspaces": {
     "packages": [
