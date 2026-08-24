@@ -1,19 +1,42 @@
+const DEFAULT_HOST = '0.0.0.0';
+const host = process.env.TAURI_HOST;
+
 export default defineNuxtConfig({
   compatibilityDate: '2026-08-24',
+  experimental: {
+    typedPages: true,
+  },
   devtools: {
     enabled: false,
   },
+  devServer: {
+    host: host ?? DEFAULT_HOST,
+  },
+  vite: {
+    clearScreen: false,
+    envPrefix: ['VITE_', 'TAURI_'],
+    server: {
+      strictPort: true,
+      ws: host
+        ? {
+            protocol: 'ws',
+            port: 3001,
+            host,
+          }
+        : undefined,
+      watch: {
+        ignored: ['**/src-tauri/**'],
+      },
+    },
+  },
   typescript: {
-    typeCheck: false,
+    typeCheck: true,
     strict: true,
     tsConfig: {
       compilerOptions: {
         rootDir: '..',
       },
     },
-  },
-  experimental: {
-    typedPages: true,
   },
   router: {
     options: {
@@ -48,6 +71,11 @@ export default defineNuxtConfig({
   nitro: {
     preset: 'bun',
   },
+  dir: {
+    modules: 'app/modules',
+  },
+  ssr: false,
+  ignore: ['**/src-tauri/**'],
   css: ['~/assets/css/main.css'],
   modules: ['@nuxt/hints', '@nuxt/ui', '@pinia/nuxt', '@vueuse/nuxt'],
 });
