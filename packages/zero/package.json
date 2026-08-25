@@ -1,0 +1,22 @@
+{
+  "name": "@tennzi/zero",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": "./index.ts",
+    "./db": "./src/db.ts"
+  },
+  "scripts": {
+    "dev": "zero-cache-dev"
+  },
+  "dependencies": {
+    "@rocicorp/zero": "catalog:",
+    "valibot": "catalog:"
+  },
+  "devDependencies": {
+    "@types/bun": "catalog:"
+  },
+  "peerDependencies": {
+    "typescript": "catalog:"
+  }
+}
