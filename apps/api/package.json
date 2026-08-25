@@ -4,8 +4,13 @@
   "private": true,
   "scripts": {
     "build": "bunx --bun nitro build",
-    "dev": "bunx --bun nitro dev",
+    "dev": "bunx --bun nitro dev --port 3001",
     "preview": "bunx --bun nitro preview"
+  },
+  "dependencies": {
+    "@rocicorp/zero": "catalog:",
+    "@tennzi/zero": "workspace:*",
+    "valibot": "catalog:"
   },
   "devDependencies": {
     "@types/bun": "catalog:",
