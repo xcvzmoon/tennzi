@@ -11,3 +11,7 @@
     @apply h-svh antialiased;
   }
 }
+
+:root {
+  --ui-radius: 0;
+}

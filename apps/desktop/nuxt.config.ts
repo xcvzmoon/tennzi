@@ -74,6 +74,13 @@ export default defineNuxtConfig({
   dir: {
     modules: 'app/modules',
   },
+  runtimeConfig: {
+    public: {
+      cache: {
+        url: '',
+      },
+    },
+  },
   ssr: false,
   ignore: ['**/src-tauri/**'],
   css: ['~/assets/css/main.css'],

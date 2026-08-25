@@ -19,6 +19,8 @@
     "@nuxt/hints": "1.1.4",
     "@nuxt/ui": "4.11.0",
     "@pinia/nuxt": "1.0.2",
+    "@rocicorp/zero": "^1.9.0",
+    "@tennzi/zero": "workspace:*",
     "@tiptap/core": "^3",
     "@tiptap/extension-bubble-menu": "^3",
     "@tiptap/extension-code": "^3",
